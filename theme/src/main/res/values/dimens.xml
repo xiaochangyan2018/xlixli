@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actionBarHeight">50dp</dimen>
+    <dimen name="toolbarHeight">35dp</dimen>
+    <!--填充-->
+    <dimen name="padding_ls">2.5dp</dimen>
+    <dimen name="padding_s">5dp</dimen>
+    <dimen name="padding_m">10dp</dimen>
+    <dimen name="padding_lm">12.5dp</dimen>
+    <dimen name="padding_h">15dp</dimen>
+    <dimen name="padding_lh">20dp</dimen>
+
+    <!-- Text -->
+    <dimen name="textSizeNormal">16.0dp</dimen>
+    <dimen name="textSizeSmallest">12.0dp</dimen>
+    <dimen name="textSizeHint">14.0dp</dimen>
+    <dimen name="textSizeTitle">20.0dp</dimen>
+
+    <dimen name="textSizeSmallest_s">10.0dp</dimen>
+</resources>

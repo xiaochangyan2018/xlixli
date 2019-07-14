@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--背景颜色-->
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#C22F61</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="colorContent">#FFFFFF</color>
+    <color name="colorContentDark">#C5C3C3</color>
+    <color name="colorContentDarkHight">#D8D5D5</color>
+    <color name="colorContentHight">#EEECEC</color>
+    <color name="colorTransparent">#00000000</color>
+    <!--字体颜色-->
+    <color name="colorTextPrimary">#303030</color>
+    <color name="colorTextPrimaryLight">#7A7A7A</color>
+
+
+</resources>

@@ -1,0 +1,96 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="ActionBarR">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/actionBarHeight</item>
+    </style>
+    <!--字体-->
+    <style name="FontTitleInList">
+        <item name="android:textSize">@dimen/textSizeNormal</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!--<item name="android:singleLine">true</item>-->
+    </style>
+    <style name="FontTitle" parent="@style/FontTitleInList">
+        <item name="android:textSize">@dimen/textSizeTitle</item>
+    </style>
+    <style name="FontTipInList">
+        <item name="android:textSize">@dimen/textSizeHint</item>
+        <item name="android:textColor">@color/colorTextPrimaryLight</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="FontTimeInList" parent="@style/FontTipInList">
+        <item name="android:textSize">@dimen/textSizeSmallest</item>
+        <item name="android:textColor">@color/colorTextPrimaryLight</item>
+    </style>
+
+
+    <style name="MMHLin">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="MMVLin">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="MMHLinbl" parent="@style/MMHLin">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="MMVLinbl" parent="@style/MMVLin">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- 线 -->
+    <style name="MMViewLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.1dp</item>
+        <item name="android:background">@color/colorContentDark</item>
+    </style>
+    <style name="MMViewLineV">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorContentDark</item>
+    </style>
+    <!-- 动画 -->
+
+    <style name="popup_anim_down">
+        <item name="android:windowEnterAnimation">@anim/popup_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_fade_out</item>
+    </style>
+    <style name="slide_bottom_animstyle">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+    <style name="slide_top_animstyle">
+        <item name="android:windowEnterAnimation">@anim/slide_in_top</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_top</item>
+    </style>
+    <style name="transparentFrameWindowStyle" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/photo_choose_bg</item>
+    </style>
+    <!--按键效果-->
+    <style name="MMImageButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+</resources>
