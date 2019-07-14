@@ -5,4 +5,4 @@
 目前项目主要分了主项目xlixli、包theme、包network
 下面对theme、network简单介绍
 1、theme主要是把一些通用的color、dimens、styles、anim、drawable 抽出来
-2、network 顾名思义就是把网络请求缓存抽离出来放到这个包，里面有对okhttp的封装、retrofit2的封装、
+2、network 顾名思义就是把网络请求缓存抽离出来放到这个包，里面有对okhttp的封装、retrofit2的封装
